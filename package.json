@@ -1,0 +1,14 @@
+{
+  "name": "print-headers",
+  "version": "1.0.0",
+  "description": "Express Script tp print Request Headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kavyesh Shah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
