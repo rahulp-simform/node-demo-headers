@@ -8,6 +8,6 @@ app.get('/hello',function(req,res){
 });
 
 
-app.listen(80, function () {
-    console.log("Headers app Running on port 80");
+app.listen(process.env.PORT, function () {
+    console.log("Headers app Running on port " + process.env.PORT);
 });
